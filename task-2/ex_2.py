@@ -2,8 +2,6 @@ import math
 
 # kwadrat
 
-from asyncio.proactor_events import _ProactorSocketTransport
-
 
 a=10
 size=a*4
@@ -40,3 +38,13 @@ size=a+b+2*c
 surface=(a*b)*h/2
 
 print('[Trapez] Obwód: ' + str(size) + ' Pole: ' + str(surface))
+
+# romb rownoramienny, rozne przekatne
+
+a=5
+e=a
+f=math.sqrt(3)*a
+size=a*4
+surface=(1/2)*e*f
+
+print('[Romb] Obwód: ' + str(size) + ' Pole: ' + str(round(surface)))
