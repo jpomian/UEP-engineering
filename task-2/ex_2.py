@@ -28,3 +28,15 @@ size=2*r*PI
 surface=PI*r**2
 
 print('[Kolo] Obwód: ' + str(round(size, 3)) + ' Pole: ' + str(round(surface, 3)))
+
+# trapez rownoramienny
+
+a=12
+b=4
+c=5
+h=3
+
+size=a+b+2*c
+surface=(a*b)*h/2
+
+print('[Trapez] Obwód: ' + str(size) + ' Pole: ' + str(surface))
