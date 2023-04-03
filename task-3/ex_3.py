@@ -7,12 +7,16 @@ def trojkat(bok_a, bok_b, bok_c, wysokosc_a):
 # kwadrat, prostokat dla studenta 1
 def kwadrat(bok):
     # TODO
-    return 0, 0
+    obwod = 4 * bok
+    pole = bok * bok
+    return obwod, pole
 
 
 def prostokat(bok_a, bok_b):
     # TODO
-    return 0, 0
+    obwod = 2 * bok_a + 2 * bok_b
+    pole = bok_a * bok_b
+    return obwod, pole
 
 # rownoleglobok i romb dla studenta 2 ahahhah
 def rownoleglobok(bok_a, bok_b, wysokosc_a):
