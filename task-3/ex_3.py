@@ -14,7 +14,7 @@ def prostokat(bok_a, bok_b):
     # TODO
     return 0, 0
 
-# rownoleglobok i romb dla studenta 2
+# rownoleglobok i romb dla studenta 2 ahahhah
 def rownoleglobok(bok_a, bok_b, wysokosc_a):
     # TODO
     return 0, 0
