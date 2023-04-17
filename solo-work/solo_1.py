@@ -73,7 +73,7 @@ for student in studenci:
 
 # zadanie 1.9
 
-studenci = ["John Smith", "Alice Brown", "Peter Johnson", "Emma White", "Nash Nitana", "Nicole Nielurna"]
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 
 nazwiskaNaN = []
 for s in studenci:
